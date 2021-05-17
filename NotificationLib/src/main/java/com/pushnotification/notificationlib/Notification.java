@@ -54,4 +54,10 @@ public class Notification extends FirebaseMessagingService {
         Log.wtf("token", s);
         super.onNewToken(s);
     }
+
+    public void setDeviceId(String deviceId){
+        Log.wtf("deviceId", deviceId);
+
+
+    }
 }
