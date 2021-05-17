@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pushnotification.notificationlib"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application>
+13-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:6:5-13:19
+14        <service android:name="com.pushnotification.notificationlib.Notification" >
+14-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:8:9-12:19
+14-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:8:18-46
+15            <intent-filter>
+15-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:9:13-11:29
+16                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+16-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:10:17-78
+16-->/Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:10:25-75
+17            </intent-filter>
+18        </service>
+19    </application>
+20
+21</manifest>

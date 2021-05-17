@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:1-15:12
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:6:5-13:19
+service#com.pushnotification.notificationlib.Notification
+ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:8:9-12:19
+	android:name
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:8:18-46
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:9:13-11:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:10:17-78
+	android:name
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml:10:25-75
+uses-sdk
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		ADDED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/Desktop/PushNotification/NotificationLib/src/main/AndroidManifest.xml
