@@ -19,6 +19,7 @@ import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 public class Notification extends FirebaseMessagingService {
+
     @Override
     public void
     onMessageReceived(RemoteMessage remoteMessage) {
@@ -55,9 +56,7 @@ public class Notification extends FirebaseMessagingService {
         super.onNewToken(s);
     }
 
-    public void setDeviceId(String deviceId){
-        Log.wtf("deviceId", deviceId);
 
 
-    }
+
 }
