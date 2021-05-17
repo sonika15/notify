@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385009233777",
+    "project_id": "pushnotificationandroid-de130",
+    "storage_bucket": "pushnotificationandroid-de130.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385009233777:android:fc206f68a4f139a0d690d0",
+        "android_client_info": {
+          "package_name": "com.pushnotification.galactik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385009233777-bo88timjqe5imtj25laii8n61h2mije2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZV1wg3V9r3Xb-ffP-rSc_kwBEUQu34g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385009233777-bo88timjqe5imtj25laii8n61h2mije2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

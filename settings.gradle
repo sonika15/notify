@@ -1,0 +1,3 @@
+include ':NotificationLib'
+include ':app'
+rootProject.name = "PushNotificationSdk"
