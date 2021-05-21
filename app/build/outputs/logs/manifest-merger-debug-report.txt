@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/bea5c8b950030679a8a8139015ea8f71/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/user/.gradle/caches/transforms-2/files-2.1/2ed26aafa1c180637a4eef58f5ac0acd/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
@@ -54,25 +54,37 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f094a38f6867d6d183efb39616e7cd07/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/b9f24ac253f4bb7be9e2b01eed71c594/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/5578ba900439ddf6d3fe74ec8f90b6b9/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/5eb6a27fa489c4e07cf614d354e822f6/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/5eb6a27fa489c4e07cf614d354e822f6/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921d67f69ff2ab8c1398012e6e1a09d9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921d67f69ff2ab8c1398012e6e1a09d9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/23785f1a43b4cbe49b92b0aee9df7d8a/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/23785f1a43b4cbe49b92b0aee9df7d8a/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:7:5-22:19
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:8:5-23:19
 MERGED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-19:19
 MERGED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-19:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/bea5c8b950030679a8a8139015ea8f71/material-1.3.0/AndroidManifest.xml:22:5-20
@@ -108,31 +120,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/user
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/user/.gradle/caches/transforms-2/files-2.1/eed283f89331fdfa594b3e23e5e724f5/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:13:9-57
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:14:9-57
 activity#com.pushnotification.galactik.MainActivity
-ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
@@ -247,16 +259,6 @@ INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
 		ADDED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/user/Desktop/PushNotification/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/5eb6a27fa489c4e07cf614d354e822f6/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/5eb6a27fa489c4e07cf614d354e822f6/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921d67f69ff2ab8c1398012e6e1a09d9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921d67f69ff2ab8c1398012e6e1a09d9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/23785f1a43b4cbe49b92b0aee9df7d8a/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/23785f1a43b4cbe49b92b0aee9df7d8a/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
 service#com.pushnotification.notificationlib.Notification
 ADDED from [:NotificationLib] /Users/user/Desktop/PushNotification/NotificationLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-18:19
 	android:name
