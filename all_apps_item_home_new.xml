@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_8sdp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvHindi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelectedHindi"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelectedHindi" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvEnglish"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelectedEng"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelectedEng" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelected3"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelected3" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelected4"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelected4" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelected5"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelected5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelected6"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelected6" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelected7"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelected7" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardUseCompatPadding="true"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            app:cardBackgroundColor="@color/login_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivSelected8"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:backgroundTint="@color/bottomIconColor"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Hindi"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivSelected8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
